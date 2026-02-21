@@ -64,6 +64,4 @@ Interactive dashboard showing:
 ---
 
 ## 📫 Contact
-Upwork: (add your profile link)  
-Portfolio: (later we can add)  
-Email: (optional)
+Upwork: https://upwork.com/freelancers/waqarhasan5
