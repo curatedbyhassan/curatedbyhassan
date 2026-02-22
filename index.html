@@ -48,6 +48,28 @@
             border-radius: 6px;
             margin-top: 10px;
         }
+                .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card h3 {
+            margin-top: 0;
+        }
+        .card a {
+            display: inline-block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: white;
+            background: #2563eb;
+            padding: 8px 14px;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
         footer {
             text-align: center;
             padding: 20px;
@@ -96,7 +118,30 @@
             and clean visualization for personal and business finance management.
         </p>
     </div>
+    <div class="card">
+            <h2>My Portfolio Projects</h2>
 
+    <div class="portfolio-grid">
+
+        <div class="card">
+            <h3>SRG Technical</h3>
+            <p>Professional business website developed with modern design and responsive layout.</p>
+            <a href="https://srgtechnical.com/" target="_blank">View Live Site</a>
+        </div>
+
+        <div class="card">
+            <h3>Lead Global</h3>
+            <p>Corporate website with clean UI, performance optimization, and scalable structure.</p>
+            <a href="https://leadglobal.tech/" target="_blank">View Live Site</a>
+        </div>
+
+        <div class="card">
+            <h3>Gassan Developers</h3>
+            <p>Real estate focused website with dynamic content and professional presentation.</p>
+            <a href="https://gassandevelopers.com/" target="_blank">View Live Site</a>
+        </div>
+
+    </div>
     <div class="card">
         <h2>Core Skills</h2>
         <div class="skills">
